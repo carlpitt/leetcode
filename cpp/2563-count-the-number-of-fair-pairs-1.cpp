@@ -11,7 +11,7 @@ class Solution {
             const int lower,
             const int upper
         ) const noexcept -> u64 {
-		// 2 pointers
+            // 2 pointers
             // // O(n * log(n))
             // // O(log(n)) for std::ranges::sort()
             constexpr auto lower_bound = [](const std::vector<int> &v,

@@ -12,7 +12,7 @@ class Solution {
             const int lower,
             const int upper
         ) const noexcept -> u64 {
-		// binary search
+            // binary search
             // // O(n * log(n))
             // // O(log(n)) for std::ranges::sort()
             std::ranges::sort(nums);
