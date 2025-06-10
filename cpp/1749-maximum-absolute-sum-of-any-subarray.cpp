@@ -3,7 +3,8 @@
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto maxAbsoluteSum(const std::vector<int> &nums
+        [[nodiscard]] constexpr auto maxAbsoluteSum(
+            const std::vector<int> &nums
         ) const noexcept -> int {
             auto curr_max = nums[0];
             auto curr_min = nums[0];

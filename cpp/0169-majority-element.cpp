@@ -6,7 +6,8 @@ using uint = unsigned;
 
 class Solution {
     public:
-        [[nodiscard]] auto majorityElement(const std::vector<int> &nums
+        [[nodiscard]] auto majorityElement(
+            const std::vector<int> &nums
         ) const noexcept -> int {
             // // 1. sort
             // // O(n * log(n))

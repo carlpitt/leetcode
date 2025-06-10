@@ -6,7 +6,8 @@ using uint = unsigned;
 
 class Solution {
     public:
-        [[nodiscard]] auto parseBoolExpr(const std::string &expression
+        [[nodiscard]] auto parseBoolExpr(
+            const std::string &expression
         ) const noexcept -> bool {
             // // 1. string manipulation
             // // O(n^2)
@@ -142,8 +143,8 @@ class Solution {
             return 'f';
         }
 
-        [[nodiscard]] constexpr auto evaluate(const std::string &expr, uint &i)
-            const noexcept -> bool {
+        [[nodiscard]] constexpr auto
+        evaluate(const std::string &expr, uint &i) const noexcept -> bool {
             const auto c = expr[i];
             ++i;
 

@@ -4,7 +4,8 @@
 
 class Solution {
     public:
-        [[nodiscard]] auto maxWidthRamp(const std::vector<int> &nums
+        [[nodiscard]] auto maxWidthRamp(
+            const std::vector<int> &nums
         ) const noexcept -> int {
             // // brute force (TLEs)
             // // O(n^2)

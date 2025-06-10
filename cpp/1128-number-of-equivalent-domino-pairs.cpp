@@ -6,7 +6,8 @@ using uint = unsigned;
 class Solution {
     public:
         static constexpr auto numEquivDominoPairs =
-            [] [[nodiscard]] (const std::vector<std::vector<int>> &dominoes
+            [] [[nodiscard]] (
+                const std::vector<std::vector<int>> &dominoes
             ) noexcept -> uint {
             auto freq = std::array<uint, 100>{};
             auto ans = 0U;

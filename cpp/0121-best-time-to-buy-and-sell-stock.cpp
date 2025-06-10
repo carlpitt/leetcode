@@ -2,7 +2,8 @@
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto maxProfit(const std::vector<int> &prices
+        [[nodiscard]] constexpr auto maxProfit(
+            const std::vector<int> &prices
         ) const noexcept -> int {
             // // 1. brute force (TLE)
             // // O(n**2)

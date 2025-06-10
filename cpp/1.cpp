@@ -12,8 +12,8 @@ bool contains(const M &m, const K &k) {
 
 class Solution {
     public:
-        std::vector<int> two_sum(const std::vector<int> &nums, const int target)
-            const noexcept {
+        std::vector<int>
+        two_sum(const std::vector<int> &nums, const int target) const noexcept {
             auto map = std::unordered_map<int, int>{};
             for (auto i = 0ULL, n = nums.size(); i < n; ++i) {
                 // TODO

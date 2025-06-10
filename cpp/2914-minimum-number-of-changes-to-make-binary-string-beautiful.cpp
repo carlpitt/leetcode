@@ -4,7 +4,8 @@ using uint = unsigned;
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto minChanges(const std::string &s
+        [[nodiscard]] constexpr auto minChanges(
+            const std::string &s
         ) const noexcept -> uint {
             // // 1. greedy
             // // O(n)

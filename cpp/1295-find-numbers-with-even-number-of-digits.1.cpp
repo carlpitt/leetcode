@@ -5,7 +5,8 @@ using uint = unsigned;
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto findNumbers(const std::vector<int> &nums
+        [[nodiscard]] constexpr auto findNumbers(
+            const std::vector<int> &nums
         ) const noexcept -> uint {
             auto ans = 0U;
 

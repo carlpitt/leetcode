@@ -4,7 +4,8 @@
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto largestNumber(const std::vector<int> &nums
+        [[nodiscard]] constexpr auto largestNumber(
+            const std::vector<int> &nums
         ) const -> std::string {
             auto num_strs = std::vector<std::string>{};
 

@@ -1,7 +1,7 @@
 class Solution {
     public:
-        static constexpr auto isPalindrome = [] [[nodiscard]] (int x
-                                             ) noexcept -> bool {
+        static constexpr auto isPalindrome =
+            [] [[nodiscard]] (int x) noexcept -> bool {
             if (x < 0 || (x > 0 && x % 10 == 0)) {
                 return false;
             }

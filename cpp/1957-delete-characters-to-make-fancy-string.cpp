@@ -2,7 +2,8 @@
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto makeFancyString(std::string &s
+        [[nodiscard]] constexpr auto makeFancyString(
+            std::string &s
         ) const noexcept -> std::string {
             // // 1. inserts chars in new string
             // // O(n)

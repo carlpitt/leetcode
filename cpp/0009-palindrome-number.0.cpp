@@ -4,8 +4,8 @@ using i64 = std::int64_t;
 
 class Solution {
     public:
-        static constexpr auto isPalindrome = [] [[nodiscard]] (const int x
-                                             ) noexcept -> bool {
+        static constexpr auto isPalindrome =
+            [] [[nodiscard]] (const int x) noexcept -> bool {
             auto t = x;
             auto r = i64{0};
 

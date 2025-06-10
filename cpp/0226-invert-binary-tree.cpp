@@ -5,7 +5,8 @@
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto invertTree(TreeNode *const root
+        [[nodiscard]] constexpr auto invertTree(
+            TreeNode *const root
         ) const noexcept -> TreeNode * {
             // // 1. recursive dfs
             // //

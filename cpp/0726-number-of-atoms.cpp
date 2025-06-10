@@ -24,13 +24,13 @@ class Solution {
                         if (*curr_num == 0) {
                             curr_num = static_cast<unsigned>(c - '0') * 10;
                         } else {
-                            *curr_num +=
-                                static_cast<unsigned>(c - '0') *
-                                static_cast<unsigned>(std::pow(
-                                    10,
-                                    static_cast<unsigned>(std::log10(*curr_num)
-                                    ) + 1
-                                ));
+                            *curr_num += static_cast<unsigned>(c - '0') *
+                                         static_cast<unsigned>(std::pow(
+                                             10,
+                                             static_cast<unsigned>(
+                                                 std::log10(*curr_num)
+                                             ) + 1
+                                         ));
                         }
                     } else {
                         curr_num = static_cast<unsigned>(c - '0');

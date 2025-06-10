@@ -7,7 +7,8 @@ using uint = unsigned;
 
 class Solution {
     public:
-        [[nodiscard]] auto maximumLength(const std::string_view s
+        [[nodiscard]] auto maximumLength(
+            const std::string_view s
         ) const noexcept -> int {
             // // my brute force
             // //

@@ -7,7 +7,8 @@ using u64 = std::uint64_t;
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto shortestPalindrome(const std::string &s
+        [[nodiscard]] constexpr auto shortestPalindrome(
+            const std::string &s
         ) const -> std::string {
             // // brute force
             // const auto len = s.size();

@@ -3,7 +3,8 @@
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto maximumCount(const std::vector<int> &nums
+        [[nodiscard]] constexpr auto maximumCount(
+            const std::vector<int> &nums
         ) const noexcept -> std::size_t {
             const auto neg =
                 std::distance(nums.begin(), std::ranges::lower_bound(nums, 0));

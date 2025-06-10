@@ -5,8 +5,8 @@ using uint = unsigned;
 
 class Solution {
     public:
-        static constexpr auto romanToInt = [] [[nodiscard]] (const std::string s
-                                           ) noexcept -> uint {
+        static constexpr auto romanToInt =
+            [] [[nodiscard]] (const std::string s) noexcept -> uint {
             constexpr auto a = [] {
                 auto ans = std::array<uint, 'X' - 'C' + 1>{};
                 ans['I' - 'C'] = 1;

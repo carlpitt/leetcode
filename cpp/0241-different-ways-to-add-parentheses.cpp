@@ -5,7 +5,8 @@ using uint = unsigned;
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto diffWaysToCompute(const std::string &expr
+        [[nodiscard]] constexpr auto diffWaysToCompute(
+            const std::string &expr
         ) const -> std::vector<int> {
             // switch (n) {
             // case 0:

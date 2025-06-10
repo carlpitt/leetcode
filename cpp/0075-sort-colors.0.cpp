@@ -5,8 +5,8 @@ using uint = unsigned;
 
 class Solution {
     public:
-        static constexpr auto sortColors = [](std::vector<int> &nums
-                                           ) noexcept -> void {
+        static constexpr auto sortColors =
+            [](std::vector<int> &nums) noexcept -> void {
             const auto n = nums.size();
             auto f = std::array<uint, 3>{};
 

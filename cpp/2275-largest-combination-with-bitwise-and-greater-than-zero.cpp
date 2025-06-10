@@ -30,12 +30,11 @@ class Solution {
             auto ans = 0U;
 
             for (auto i = 0U; i < 24; ++i) {
-                const auto count = static_cast<uint>(std::ranges::count_if(
-                    candidates,
-                    [i](const int candidate) {
+                const auto count = static_cast<uint>(
+                    std::ranges::count_if(candidates, [i](const int candidate) {
                         return (candidate & (1 << i)) != 0;
-                    }
-                ));
+                    })
+                );
                 ans = std::max(ans, count);
             }
 

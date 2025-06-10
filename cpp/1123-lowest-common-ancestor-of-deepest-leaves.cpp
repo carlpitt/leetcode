@@ -6,7 +6,8 @@ using uint = unsigned;
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto lcaDeepestLeaves(TreeNode *const root
+        [[nodiscard]] constexpr auto lcaDeepestLeaves(
+            TreeNode *const root
         ) const noexcept -> TreeNode * {
             return dfs(root).first;
         }

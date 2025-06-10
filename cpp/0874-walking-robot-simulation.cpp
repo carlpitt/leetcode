@@ -63,8 +63,8 @@ class Solution {
         // slightly > 2 * max coord value
         static constexpr auto HASH_MULTIPLIER = 60'013;
 
-        [[nodiscard]] constexpr auto hash_coords(const int x, const int y)
-            const noexcept -> int {
+        [[nodiscard]] constexpr auto
+        hash_coords(const int x, const int y) const noexcept -> int {
             return x + HASH_MULTIPLIER * y;
         }
 };

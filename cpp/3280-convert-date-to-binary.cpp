@@ -8,7 +8,8 @@ using uint = unsigned;
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto convertDateToBinary(const std::string &date
+        [[nodiscard]] constexpr auto convertDateToBinary(
+            const std::string &date
         ) const noexcept -> std::string {
             // date == "1900-01-01"s => "11101101100-1-1"s;
             // date == "2100-12-31"s => "100000110100-1100-11111"s;

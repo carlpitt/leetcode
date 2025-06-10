@@ -7,8 +7,10 @@ using i64 = std::int64_t;
 
 class Solution {
     public:
-        [[nodiscard]] auto maxKelements(std::vector<int> &nums, const uint k)
-            const noexcept -> i64 {
+        [[nodiscard]] auto maxKelements(
+            std::vector<int> &nums,
+            const uint k
+        ) const noexcept -> i64 {
             // priority queue
             // O(k * log(n) + n * log(n))
             // O(n)

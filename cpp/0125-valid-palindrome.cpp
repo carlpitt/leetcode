@@ -2,7 +2,8 @@
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto isPalindrome(const std::string &s
+        [[nodiscard]] constexpr auto isPalindrome(
+            const std::string &s
         ) const noexcept -> bool {
             // // 1.
             // // O(n)

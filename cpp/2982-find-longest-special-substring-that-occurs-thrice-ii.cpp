@@ -6,7 +6,8 @@ using uint = unsigned;
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto maximumLength(const std::string_view s
+        [[nodiscard]] constexpr auto maximumLength(
+            const std::string_view s
         ) const noexcept -> int {
             // // 1. hashing
             // // O(n + c * n) == O(n + 26 * n) == O(n)

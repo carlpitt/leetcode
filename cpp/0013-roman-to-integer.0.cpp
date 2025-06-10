@@ -4,10 +4,10 @@ using uint = unsigned;
 
 class Solution {
     public:
-        static constexpr auto romanToInt = [] [[nodiscard]] (const std::string s
-                                           ) noexcept -> uint {
-            constexpr auto f = [] [[nodiscard]] (const char c
-                               ) noexcept -> uint {
+        static constexpr auto romanToInt =
+            [] [[nodiscard]] (const std::string s) noexcept -> uint {
+            constexpr auto f =
+                [] [[nodiscard]] (const char c) noexcept -> uint {
                 switch (c) {
                     case 'I':
                         return 1U;

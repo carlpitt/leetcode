@@ -2,7 +2,8 @@
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto compressedString(const std::string &word
+        [[nodiscard]] constexpr auto compressedString(
+            const std::string &word
         ) const noexcept -> std::string {
             // string manipulation
             // O(n)

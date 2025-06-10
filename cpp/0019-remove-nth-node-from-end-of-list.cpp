@@ -2,8 +2,10 @@
 
 class Solution {
     public:
-        [[nodiscard]] auto removeNthFromEnd(ListNode *const head, const int n)
-            const -> ListNode * {
+        [[nodiscard]] auto removeNthFromEnd(
+            ListNode *const head,
+            const int n
+        ) const -> ListNode * {
             const auto *fast = head;
 
             for (auto i = 0; i < n; ++i) {

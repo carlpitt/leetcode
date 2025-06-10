@@ -2,7 +2,8 @@
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto mergeNodes(ListNode *const head
+        [[nodiscard]] constexpr auto mergeNodes(
+            ListNode *const head
         ) const noexcept -> ListNode * {
             for (auto curr = head->next; curr != nullptr; curr = curr->next) {
                 const auto *end = curr;

@@ -4,7 +4,8 @@ using uint = unsigned;
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto canSortArray(const std::vector<int> &nums
+        [[nodiscard]] constexpr auto canSortArray(
+            const std::vector<int> &nums
         ) const noexcept -> bool {
             // // 1. bubble sort
             // // O(n**2)

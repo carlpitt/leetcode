@@ -6,7 +6,8 @@ using uint = unsigned;
 
 class Solution {
     public:
-        [[nodiscard]] auto checkIfExist(const std::vector<int> &arr
+        [[nodiscard]] auto checkIfExist(
+            const std::vector<int> &arr
         ) const noexcept -> bool {
             // // 1. brute force
             // // O(n**2)

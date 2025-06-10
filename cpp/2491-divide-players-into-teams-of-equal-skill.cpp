@@ -7,7 +7,8 @@ using i64 = std::int64_t;
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto dividePlayers(const std::vector<int> &skill
+        [[nodiscard]] constexpr auto dividePlayers(
+            const std::vector<int> &skill
         ) const noexcept -> i64 {
             // // sorting
             // // O(n * log(n))

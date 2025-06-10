@@ -5,7 +5,8 @@ using usize = std::size_t;
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto lengthOfLIS(const std::vector<int> &nums
+        [[nodiscard]] constexpr auto lengthOfLIS(
+            const std::vector<int> &nums
         ) const noexcept -> usize {
             // // 1. dynamic programming (dp)
             // // O(n^2)

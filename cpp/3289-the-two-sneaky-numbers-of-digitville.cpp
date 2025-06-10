@@ -5,7 +5,8 @@
 
 class Solution {
     public:
-        [[nodiscard]] auto getSneakyNumbers(const std::vector<int> &nums
+        [[nodiscard]] auto getSneakyNumbers(
+            const std::vector<int> &nums
         ) const noexcept -> std::vector<int> {
             // // 1. sort
             // // O(n * log(n))

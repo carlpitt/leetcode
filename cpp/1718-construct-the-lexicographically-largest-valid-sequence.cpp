@@ -4,7 +4,8 @@ using uint = unsigned;
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto constructDistancedSequence(const uint n
+        [[nodiscard]] constexpr auto constructDistancedSequence(
+            const uint n
         ) const noexcept -> std::vector<int> {
             auto ans = std::vector(2 * n - 1, 0);
             auto is_num_used = std::vector(n + 1, false);

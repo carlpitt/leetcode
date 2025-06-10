@@ -20,8 +20,8 @@ class Solution {
             for (const auto c : s) {
                 --count[static_cast<uint>(c - 'a')];
 
-                while (min_c < 'z' && count[static_cast<uint>(min_c - 'a')] == 0
-                ) {
+                while (min_c < 'z' &&
+                       count[static_cast<uint>(min_c - 'a')] == 0) {
                     ++min_c;
                 }
 

@@ -5,7 +5,8 @@ using uint = unsigned;
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto countLargestGroup(const uint n
+        [[nodiscard]] constexpr auto countLargestGroup(
+            const uint n
         ) const noexcept -> uint {
             constexpr auto sum_digits = [](uint x) noexcept {
                 auto ans = 0U;

@@ -2,7 +2,8 @@
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto getConcatenation(std::vector<int> &nums
+        [[nodiscard]] constexpr auto getConcatenation(
+            std::vector<int> &nums
         ) const noexcept -> std::vector<int> & {
             // O(n)
             // O(n)

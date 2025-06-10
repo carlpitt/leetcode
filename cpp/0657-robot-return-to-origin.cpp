@@ -3,7 +3,8 @@
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto judgeCircle(const std::string &moves
+        [[nodiscard]] constexpr auto judgeCircle(
+            const std::string &moves
         ) const noexcept -> bool {
             // simulation
             // O(n)

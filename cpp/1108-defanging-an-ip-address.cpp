@@ -5,7 +5,8 @@ using std::literals::operator""sv;
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto defangIPaddr(const std::string &address
+        [[nodiscard]] constexpr auto defangIPaddr(
+            const std::string &address
         ) const noexcept -> std::string {
             // O(n)
             // O(n)

@@ -6,7 +6,8 @@
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto largestValues(const TreeNode *const root
+        [[nodiscard]] constexpr auto largestValues(
+            const TreeNode *const root
         ) const noexcept -> std::vector<int> {
             // 1. breadth first search (bfs)
             // O(n)

@@ -1,7 +1,7 @@
 class Solution {
     public:
-        [[nodiscard]] constexpr auto differenceOfSums(const int n, const int m)
-            const noexcept -> int {
+        [[nodiscard]] constexpr auto
+        differenceOfSums(const int n, const int m) const noexcept -> int {
             // // 1.
             // // O(n)
             // // O(1)

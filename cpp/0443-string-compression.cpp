@@ -5,7 +5,8 @@ using uint = unsigned;
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto compress(std::vector<char> &chars
+        [[nodiscard]] constexpr auto compress(
+            std::vector<char> &chars
         ) const noexcept -> uint {
             // O(n)
             // O(1)

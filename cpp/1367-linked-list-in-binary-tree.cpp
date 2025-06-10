@@ -45,8 +45,8 @@ class Solution {
         ) const noexcept -> bool {
             return head == nullptr ||
                    (root != nullptr && head->val == root->val &&
-                    (dfs(head->next, root->left) || dfs(head->next, root->right)
-                    ));
+                    (dfs(head->next, root->left) ||
+                     dfs(head->next, root->right)));
         }
 
         [[nodiscard]] constexpr auto search(

@@ -4,7 +4,8 @@ using uint = unsigned;
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto minAddToMakeValid(const std::string &s
+        [[nodiscard]] constexpr auto minAddToMakeValid(
+            const std::string &s
         ) const noexcept -> uint {
             auto unmatched_open = 0U;
             auto unmatched_close = 0U;

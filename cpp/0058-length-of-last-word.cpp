@@ -4,7 +4,8 @@ using uint = unsigned;
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto lengthOfLastWord(const std::string &s
+        [[nodiscard]] constexpr auto lengthOfLastWord(
+            const std::string &s
         ) const noexcept -> uint {
             auto i = s.size() - 1;
 

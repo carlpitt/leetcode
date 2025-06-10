@@ -4,7 +4,8 @@ using uint = unsigned;
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto minimumSteps(const std::string &s
+        [[nodiscard]] constexpr auto minimumSteps(
+            const std::string &s
         ) const noexcept -> uint {
             // // 1. 2 pointer
             // // O(n)

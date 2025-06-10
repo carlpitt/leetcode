@@ -6,8 +6,8 @@ using u64 = std::uint64_t;
 
 class [[nodiscard]] Solution {
     public:
-        [[nodiscard]] constexpr auto findKthNumber(const uint n, uint k)
-            const noexcept -> uint {
+        [[nodiscard]] constexpr auto
+        findKthNumber(const uint n, uint k) const noexcept -> uint {
             auto ans = 1U;
             --k;
 

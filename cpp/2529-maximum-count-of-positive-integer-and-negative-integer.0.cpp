@@ -2,7 +2,8 @@
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto maximumCount(const std::vector<int> &nums
+        [[nodiscard]] constexpr auto maximumCount(
+            const std::vector<int> &nums
         ) const noexcept -> std::size_t {
             const auto n = nums.size();
             auto i = 0UZ;

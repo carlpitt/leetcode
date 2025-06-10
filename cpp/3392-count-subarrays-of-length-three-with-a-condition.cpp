@@ -4,7 +4,8 @@ using uint = unsigned;
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto countSubarrays(const std::vector<int> &nums
+        [[nodiscard]] constexpr auto countSubarrays(
+            const std::vector<int> &nums
         ) const noexcept -> uint {
             auto ans = 0U;
 

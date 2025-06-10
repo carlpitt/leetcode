@@ -4,7 +4,8 @@ using uint = unsigned;
 
 class Solution {
     public:
-        [[nodiscard]] constexpr auto buildArray(std::vector<int> &nums
+        [[nodiscard]] constexpr auto buildArray(
+            std::vector<int> &nums
         ) const noexcept -> std::vector<int> & {
             // // 1.
             // // O(n)
